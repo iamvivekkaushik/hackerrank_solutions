@@ -1,3 +1,6 @@
+# https://www.hackerrank.com/challenges/one-month-preparation-kit-bomber-man/problem?h_l=interview&isFullScreen=false&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-three
+
+
 def replaceString(row, index, replacement):
     text = ""
     for i in range(0, len(row)):
@@ -82,3 +85,11 @@ gr = [".......",
 "OO....."]
 print(bomberMan(3, gr))
 
+
+# expected output
+# ['OOO.OOO',
+#  'OO...OO',
+#  'OOO...O',
+#  '..OO.OO',
+#  '...OOOO',
+#  '...OOOO']
