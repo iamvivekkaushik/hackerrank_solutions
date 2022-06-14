@@ -2,14 +2,7 @@
 
 
 def replaceString(row, index, replacement):
-    text = ""
-    for i in range(0, len(row)):
-        if i == index:
-            text += replacement
-        else:
-            text += row[i]
-    
-    return text
+    return row[:index] + replacement + row[index + 1:]
 
 def plantBomb(grid, timing):
     grid_height = len(grid)
