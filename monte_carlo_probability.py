@@ -109,5 +109,5 @@ for i in range(0, NUMBER_OF_SIMS):
 
 
 print(f"Found: {found}, losses: {lost}")
-found_probability = found / (found + lost)
-print(f"Probability of reaching point B is : {found_probability}")
+found_probability = (found / (found + lost)) * 100
+print(f"Probability of reaching point B is : {found_probability}%")
